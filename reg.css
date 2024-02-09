@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color:#F28585 ;
+    display: grid;
+    place-items: center;
+}
+.container{
+    background-color: white;
+    width: 400px;
+    padding: 20px;
+    height:720px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+h1{
+    margin-top: 15px;
+    text-transform: uppercase;
+    text-align: center;
+  
+}
+.formgroup{
+    margin-top: 6px;
+    padding: 5px;
+    
+   }
+
+form{
+    padding: 30px 40px;
+
+}
+
+
+.formgroup input{
+    border: 1px solid ;
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    display: block;
+}
+button{
+width: 100%;
+margin-top: 10px;
+margin-left: 5px;
+padding: 5px;
+background-color: blue;
+color: white;
+
+}
+
+
+
+
+
+@media (max-width:400px){
+    .coantainer{
+        background-color: white;
+        width: 250px;
+    }
+}
